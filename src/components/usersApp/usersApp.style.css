@@ -1,10 +1,47 @@
-table{
+/* table{
     border: 1px solid black ;
 }
 th,td{
     border: 1px solid black;
     padding: 5px;
-}
-/* tr td:nth-child(even){
-
 } */
+
+
+div {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
